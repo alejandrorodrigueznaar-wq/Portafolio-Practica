@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Práctica Profesional Supervisada en INPREMA - Universidad Nacional Autónoma de Honduras (UNAH)">
+  <title>Portafolio de Práctica Profesional | UNAH - INPREMA</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Estilos del portafolio -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" type="image/png" href="logo-inprema.png">
+</head>
+<body>
+  <!-- Enlace accesible de salto al contenido -->
+  <a href="#seccion-trabajos" class="skip-link">Saltar al contenido de trabajos</a>
+
+  <!-- ENCABEZADO / HERO -->
+  <header class="hero" id="inicio">
+    <div class="container hero-content">
+      <div class="hero-top">
+        <div class="institution-badge">
+          <img src="logo-inprema.png" alt="Logotipo INPREMA" class="institution-logo" onerror="this.style.display='none'">
+          <span id="header-institucion">INPREMA &bull; Honduras</span>
+        </div>
+        <div class="student-tag">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <span id="header-carrera">Práctica Profesional Supervisada &bull; UNAH</span>
+        </div>
+      </div>
+
+      <div class="hero-title-group">
+        <p class="hero-eyebrow" id="header-estudiante">Nahum</p>
+        <h1 class="hero-title" id="header-titulo">Portafolio de Práctica Profesional</h1>
+        <p class="hero-subtitle" id="header-presentacion">
+          Recopilación estructurada de los trabajos, análisis técnicos, informes y herramientas desarrollados durante mi práctica profesional en el Instituto Nacional de Previsión del Magisterio (INPREMA), organizados según el equipo y profesionales con quienes colaboré.
+        </p>
+      </div>
+
+      <div class="hero-meta-grid">
+        <div class="hero-meta-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <span id="meta-institucion">Instituto de Previsión Social (INPREMA)</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span id="meta-colaboradores-count">3 Colaboradores directos</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span id="meta-trabajos-count">5 Entregables desarrollados</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+    <!-- SECCIÓN 1: PERSONAS / COLABORADORES -->
+    <section class="section" id="seccion-personas" aria-labelledby="titulo-personas">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="titulo-personas">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Equipo y Colaboradores
+          </h2>
+          <p class="section-description">
+            Selecciona a cualquier profesional para ver los trabajos específicos realizados bajo su supervisión o en coordinación conjunta.
+          </p>
+        </div>
+
+        <!-- Cuadrícula dinámica de personas -->
+        <div class="personas-grid" id="contenedor-personas" role="region" aria-label="Lista de colaboradores">
+          <!-- Renderizado dinámico vía JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: TRABAJOS Y ENTREGABLES -->
+    <section class="section" id="seccion-trabajos" aria-labelledby="titulo-trabajos" style="background-color: var(--color-surface-subtle); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="titulo-trabajos">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            Trabajos y Proyectos Realizados
+          </h2>
+          <p class="section-description">
+            Explora informes, diagramas, presentaciones y análisis. Puedes buscar por palabras clave o filtrar por persona y tipo de documento.
+          </p>
+        </div>
+
+        <!-- Banner de persona activa (visible cuando se filtra por alguien) -->
+        <div class="active-person-banner" id="banner-persona-activa" style="display: none;">
+          <div class="active-person-text">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+            <span>Filtrando por colaborador: <strong id="nombre-persona-filtrada">...</strong></span>
+          </div>
+          <button type="button" class="btn-clear-person" id="btn-quitar-filtro-persona">
+            Mostrar todos los colaboradores &times;
+          </button>
+        </div>
+
+        <!-- PANEL DE CONTROL / BÚSQUEDA Y FILTROS -->
+        <div class="controls-card">
+          <div class="controls-grid">
+            <!-- Buscador por texto -->
+            <div class="control-group">
+              <label for="input-busqueda" class="control-label">Buscar por palabra clave</label>
+              <div class="input-with-icon">
+                <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" id="input-busqueda" class="form-input" placeholder="Ej. afiliaciones, capacitación, organigrama..." autocomplete="off">
+              </div>
+            </div>
+
+            <!-- Selector de persona -->
+            <div class="control-group">
+              <label for="select-persona" class="control-label">Filtrar por persona</label>
+              <select id="select-persona" class="form-select">
+                <option value="todos">Todos los colaboradores</option>
+                <!-- Opciones dinámicas -->
+              </select>
+            </div>
+
+            <!-- Botón limpiar -->
+            <div class="control-group" style="align-items: flex-end;">
+              <button type="button" class="btn-secondary" id="btn-limpiar-todo" style="width: 100%; justify-content: center;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+                Limpiar filtros
+              </button>
+            </div>
+          </div>
+
+          <!-- Filtro rápido por tipo de documento (chips) -->
+          <div class="type-chips" id="contenedor-chips-tipo" role="group" aria-label="Filtrar por tipo de documento">
+            <button type="button" class="chip active" data-tipo="todos">Todos los tipos</button>
+            <button type="button" class="chip" data-tipo="Informe">Informes</button>
+            <button type="button" class="chip" data-tipo="Presentación">Presentaciones</button>
+            <button type="button" class="chip" data-tipo="Diagrama">Diagramas</button>
+            <button type="button" class="chip" data-tipo="Hoja de cálculo">Hojas de cálculo</button>
+            <button type="button" class="chip" data-tipo="Otro">Otros</button>
+          </div>
+
+          <!-- Barra de estado -->
+          <div class="filter-status-bar">
+            <div class="results-count" id="contador-resultados" aria-live="polite">
+              Mostrando <strong>5</strong> trabajos
+            </div>
+          </div>
+        </div>
+
+        <!-- Cuadrícula dinámica de trabajos -->
+        <div class="trabajos-grid" id="contenedor-trabajos" role="region" aria-label="Resultados de trabajos">
+          <!-- Renderizado dinámico vía JavaScript -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL VISOR DE DOCUMENTOS -->
+  <div class="modal-overlay" id="modal-visor" role="dialog" aria-modal="true" aria-labelledby="modal-doc-titulo" aria-hidden="true">
+    <div class="modal-dialog">
+      <!-- Encabezado del modal -->
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-badge-container">
+            <span class="badge-tipo" id="modal-doc-tipo">Informe</span>
+            <span class="trabajo-fecha" id="modal-doc-fecha">2026-08</span>
+          </div>
+          <h3 class="modal-title" id="modal-doc-titulo">Título del Documento</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="btn-cerrar-modal" aria-label="Cerrar visor de documento">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- Contenido / vista previa del documento -->
+      <div class="modal-body" id="modal-contenido-vista">
+        <!-- Iframe, Imagen o ficha técnica se inyecta dinámicamente -->
+      </div>
+
+      <!-- Pie del modal con acciones -->
+      <div class="modal-footer">
+        <div class="modal-footer-info" id="modal-doc-colaboradores">
+          <!-- Colaboradores asociados -->
+        </div>
+        <div class="modal-footer-actions">
+          <a href="#" class="btn-primary" id="btn-descargar-archivo" download target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar archivo original
+          </a>
+          <button type="button" class="btn-secondary" id="btn-cerrar-modal-secundario">
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-copy">
+        <p><strong>Portafolio de Práctica Profesional</strong> &bull; UNAH 2026</p>
+        <p class="footer-note">Desarrollado con HTML, CSS y JavaScript puros &bull; Alojado en GitHub Pages</p>
+      </div>
+      <div>
+        <a href="#inicio" class="btn-secondary" style="background: rgba(255,255,255,0.08); color: white; border-color: rgba(255,255,255,0.15);">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+          Volver arriba
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lógica JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>

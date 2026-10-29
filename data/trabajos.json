@@ -1,0 +1,91 @@
+{
+  "estudiante": {
+    "nombre": "Nahum Alejandro Almendarez Rodriguez",
+    "titulo": "Portafolio de Práctica Profesional",
+    "carrera": "Licenciatura en Administración P - UNAH",
+    "universidad": "Universidad Nacional Autónoma de Honduras (UNAH)",
+    "institucion": "Instituto Nacional de Previsión del Magisterio (INPREMA)",
+    "periodo": "2026",
+    "presentacion": "Portafolio digital que recopila los proyectos, informes técnicos, diagramas y herramientas de gestión desarrollados durante mi práctica profesional supervisada. Cada trabajo refleja el esfuerzo colaborativo junto a los profesionales del departamento para optimizar procesos institucionales y la atención al docente."
+  },
+  "personas": [
+    {
+      "id": "kevin-espinoza",
+      "nombre": "Ing. Kevin Espinoza",
+      "cargo": "Oficial de Calidad",
+      "area": "Mejora Continua, Proceso y Sistemas",
+      "foto": ""
+    },
+    {
+      "id": "marvin-alvarez",
+      "nombre": "Ing. Marvin Alvarez",
+      "cargo": "Jefe del Departarmento de Calidad y Mejora Continua",
+      "area": "Innovacion y Calidad Institucional",
+      "foto": ""
+    },
+    {
+      "id": "gabriela-alvarez",
+      "nombre": "Lic. Gabriela Alvarez",
+      "cargo": "Oficial de Calidad",
+      "area": "Cultura y requisitos",
+      "foto": ""
+    }
+  ],
+  "trabajos": [
+    {
+      "id": "t1",
+      "titulo": "Análisis de Requerimientos y Flujos para Módulo de Afiliaciones",
+      "tipo": "Informe",
+      "fecha": "2026-08",
+      "resumen": "Levantamiento de especificaciones técnicas y operativas para el registro y actualización de datos de afiliados, definiendo validaciones de identidad y reglas de negocio del sistema institucional.",
+      "archivo": "documentos/analisis-requerimiento-afiliaciones.pdf",
+      "personas": ["kevin-espinoza"]
+    },
+    {
+      "id": "t2",
+      "titulo": "Informe y Dinámica de Capacitación: Campaña La Chispa Innovadora",
+      "tipo": "Presentación",
+      "fecha": "2026-08",
+      "resumen": "Diseño metodológico y ejecución de actividades interactivas para fomentar la cultura de calidad, innovación y vocación de servicio en las distintas dependencias de atención.",
+      "archivo": "documentos/informe-capacitacion-chispa.pdf",
+      "personas": ["gabriela-alvarez", "marvin-alvarez"]
+    },
+    {
+      "id": "t3",
+      "titulo": "Diagrama del Organigrama y Estructura Funcional Institucional",
+      "tipo": "Diagrama",
+      "fecha": "2026-07",
+      "resumen": "Mapeo visual integral de las dependencias jerárquicas y operativas de la institución, facilitando la comprensión de canales de reporte y áreas de apoyo a la previsión magisterial.",
+      "archivo": "documentos/diagrama-organigrama-institucional.jpg",
+      "personas": ["kevin-espinoza", "marvin-alvarez"]
+    },
+    {
+      "id": "t4",
+      "titulo": "Estandarización de Identidad Visual y Señalética Institucional",
+      "tipo": "Informe",
+      "fecha": "2026-09",
+      "resumen": "Guía técnica para la correcta aplicación gráfica y protocolos visuales en documentos oficiales, cartelería de servicio y puntos de contacto con docentes y afiliados.",
+      "archivo": "documentos/identidad-institucional.png",
+      "personas": ["marvin-alvarez"]
+    },
+    {
+      "id": "t5",
+      "titulo": "Matriz de Control de Calidad en Ventanillas de Atención Regional",
+      "tipo": "Hoja de cálculo",
+      "fecha": "2026-10",
+      "resumen": "Herramienta cuantitativa para auditar tiempos de respuesta, atención al usuario e infraestructura en ventanillas regionales, permitiendo la generación de indicadores de desempeño.",
+      "archivo": "documentos/control-calidad-ventanillas.xlsx",
+      "personas": ["gabriela-alvarez", "kevin-espinoza"]
+    }
+    {
+      "id": "t6",
+      "titulo": "Benchmarkin Instucional para la mejorar objetiva de aspectos fisicos",
+      "tipo": "HTML",
+      "fecha": "2026-07",
+      "resumen": "Dashboard interactivo desarrollado en HTML que aloja el benchmarking institucional de los aspectos físicos de instituciones comparables frente a INPREMA. Reúne los resultados de la evaluación en gráficos y tablas comparativas, lo que facilita identificar fortalezas, brechas y oportunidades de mejora en infraestructura y condiciones de atención al afiliado..",
+      "archivo": "documentos/inpre-bench-fisicos.html",
+      "personas": ["marvin-alvarez"]
+    }
+
+  ]
+}
